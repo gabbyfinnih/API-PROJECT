@@ -19,7 +19,8 @@ async function getCatBreed(){
             // console.log(breed.pattern);
 
             if(breed.breed.toLowerCase() === search.toLowerCase()){
-                const catHolder = document.getElementById("catHolder"); 
+                const catHolder = document.getElementById("catHolder");
+                catHolder.textContent = "" 
                 //catHolder.textContent = breed.breed+"\n"+breed.country+"\n"+breed.origin+"\n"+breed.coat+"\n"+breed.pattern;
                 console.log(breed)
                             
